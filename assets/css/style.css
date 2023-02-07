@@ -3,6 +3,7 @@
     margin:0;
     padding:0;
     font-size:inherit;
+    box-sizing: border-box;
 }
 
 a{
@@ -21,4 +22,12 @@ button{
     --clr-accent-light: #0099cc;
     --clr-accent-dark: #003366;
 
+}
+
+/* boxes & containers */
+.container{
+    width: 85%;
+    min-width: 300px;
+    max-width: 1124px;
+    margin: 0 auto;
 }
