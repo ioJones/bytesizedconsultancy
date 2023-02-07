@@ -65,10 +65,6 @@ p,span{font-size: var(--text-sm);}
     font-size:var(--text-xs);
 }
 
-
-
-
-
 /* boxes & containers */
 .container{
     width: 85%;
@@ -83,6 +79,12 @@ p,span{font-size: var(--text-sm);}
 .grid{
     display:grid;
 }
+.row{
+    flex-direction: column;
+}
+.column{
+    flex-direction: row;
+}
 
 /* header and nav  */
 header{
@@ -96,4 +98,12 @@ header{
 .nav_items{
     gap: 1.5rem;
     align-items: center;
+}
+
+/* hero section  */
+.hero{
+    width:100vw;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
 }
