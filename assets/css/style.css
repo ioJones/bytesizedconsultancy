@@ -122,8 +122,37 @@ header{
     overflow: hidden;
 }
 
+/* case studies section  */
+.case_studies{
+    overflow-x: hidden;
+}
+
 /* cards */
 .card{
     background-color: var(--clr-pry-light);
     padding: 3rem;
+}
+
+.card_image{
+    background-color: var(--clr-accent-dark);
+    width: 50%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.case_carousel{
+    border-radius: 10px;
+}
+.case_card{
+    display:flex;
+    background-color: var(--clr-pry-light);
+
+    /* width:100%; */
+
+}
+.card_article{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

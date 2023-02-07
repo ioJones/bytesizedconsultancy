@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header >
+    <header>
         <div class="header flex container">
             <!-- main brand logo -->
             <a href="index.html">ByteSized Consultants</a>
@@ -18,10 +18,10 @@
             <!-- navigation links -->
             <nav>
                 <ul class=" nav_items flex">
-                    <li><a class="active nav-item"href="">Home</a></li>
-                    <li><a class="nav_item"href="">About</a></li>
-                    <li><a class="nav_item"href="">Services</a></li>
-                    <li><a class="nav_item"href="">Get In Touch</a></li>
+                    <li><a class="active nav-item" href="">Home</a></li>
+                    <li><a class="nav_item" href="">About</a></li>
+                    <li><a class="nav_item" href="">Services</a></li>
+                    <li><a class="nav_item" href="">Get In Touch</a></li>
                 </ul>
             </nav>
         </div>
@@ -50,7 +50,7 @@
             <h2 class="section_title">What We Offer</h2>
 
             <!-- services cards -->
-            <article class="grid services_cards ">
+            <div class="grid services_cards ">
                 <div class="service_card card">
                     <img src="" alt="service_card_image" class="service_card_image">
                     <h3 class="card_title">Cloud Computing Solutions</h3>
@@ -87,7 +87,7 @@
                     <span class="card_text">Ensure the quality and reliability of your software with our
                         thorough quality assurance and testing services.</span>
                 </div>
-            </article>
+            </div>
         </section>
 
         <!-- why choose us section  -->
@@ -95,46 +95,57 @@
             <h2 class="section_title">Why Choose Us</h2>
 
             <!-- offers cards -->
-            <article>
-                <div class="offers_card">
+            <div class="services_cards">
+                <div class="card offer flex">
                     <img src="" alt="offers_card_image" class="offers_card_image">
-                    <h3 class="card_title">Tailored Solutions</h3>
-                    <span class="card_text">Our consultations are tailored to your specific needs and goals,
-                        ensuring a solution that fits your company's unique requirements.</span>
+                    <div class="card_article">
+                        <h3 class="card_title">Tailored Solutions</h3>
+                        <span class="card_text">Our consultations are tailored to your specific needs and goals,
+                            ensuring a solution that fits your company's unique requirements.</span>
+                    </div>
                 </div>
-                <div class="offers_card">
+                <div class="card flex offer">
                     <img src="" alt="offers_card_image" class="offers_card_image">
-                    <h3 class="card_title">Expert Knowledge</h3>
-                    <span class="card_text">Our team has a wealth of experience in a range of IT solutions, so
-                        you can trust us to stay ahead of the curve.</span>
+                    <div class="card_article">
+                        <h3 class="card_title">Expert Knowledge</h3>
+                        <span class="card_text">Our team has a wealth of experience in a range of IT solutions, so
+                            you can trust us to stay ahead of the curve.</span>
+                    </div>
                 </div>
-                <div class="offers_card">
+                <div class="card offer flex">
                     <img src="" alt="offers_card_image" class="offers_card_image">
-                    <h3 class="card_title">Personalized Approach</h3>
-                    <span class="card_text">We view ourselves as partners, not just vendors. Our goal is to help
-                        your business thrive.</span>
+                    <div class="card_article">
+                        <h3 class="card_title">Personalized Approach</h3>
+                        <span class="card_text">We view ourselves as partners, not just vendors. Our goal is to help
+                            your business thrive.</span>
+                    </div>
+
                 </div>
-                <div class="offers_card">
+                <div class="card offer flex">
                     <img src="" alt="offers_card_image" class="offers_card_image">
-                    <h3 class="card_title">Commitment to Quality</h3>
-                    <span class="card_text">We are dedicated to delivering high-quality IT services that exceed
-                        your expectations.</span>
+                    <div class="card_article">
+                        <h3 class="card_title">Commitment to Quality</h3>
+                        <span class="card_text">We are dedicated to delivering high-quality IT services that exceed
+                            your expectations.</span>
+                    </div>
+
                 </div>
-            </article>
+            </div>
         </section>
 
         <!--projects ||  success stories || case studies -->
-        <section class="offers container">
+        <section class="case_studies container">
             <h2 class="section_title">Case Studies</h2>
             <p class="section_text">See how we have helped businesses like yours reach their goals with our IT
                 solutions. Our portfolio showcases a diverse range of industries, each with its own unique challenges
                 and requirements.</p>
 
             <!-- projects cards -->
-            <article>
-                <div class="cases_card">
+            <div class="case_carousel">
+                <div class="case_card">
+                    <img class="card_image" src="/assets/images/video_edit.jpg" alt="close up image of blue rj45 network cables connected into a network switch">
+
                     <section class="card_article">
-                        <img class="card_image" src="" alt="cases card image" class="cases_card_image">
                         <h3 class="card_title">Inked Productions</h3>
                         <span class="card_text">Inked Productions is a leading film production company, known for
                             producing critically acclaimed and commercially successful films. The company faced a
@@ -144,20 +155,15 @@
                             business.</span>
                     </section>
                 </div>
-                <div class="cases_card">
-                    <img class="card_image" src="" alt="cases card image" class="cases_card_image">
+                <div class="case_card">
+                    <img class="card_image" src="./assets/images/server.jpg" alt="cases card image">
                     <section class="card_article">
                         <h3 class="card_title">Ant Media</h3>
-                        <span class="card_text">Ant Media is a rapidly growing company that provides a range of office
-                            networking solutions to businesses of all sizes. They faced the challenge of ensuring
-                            seamless communication and collaboration between their employees, in order to continue
-                            delivering outstanding results for their clients. Ant Media required a network solution that
-                            would be reliable, efficient, and secure, allowing them to stay ahead of the game in their
-                            industry.</span>
+                        <span class="card_text">Ant Media is a bustling animation studio that creates visually stunning animations for a wide range of audiences. With their imaginative and creative team, they strive to bring new and innovative ideas to life. However, as the studio grew, they faced a common challenge in the industry- managing their expanding network infrastructure. Ant Media needed a reliable and efficient solution to keep up with their growing demands and ensure their workflow remains smooth and seamless. With this in mind, they approached ByteSized Solutions for help.</span>
                     </section>
                 </div>
-                <div class="cases_card">
-                    <img class="card_image" src="" alt="cases card image" class="cases_card_image">
+                <div class="case_card">
+                    <img class="card_image" src="./assets/images/website.jpg" alt="cases card image">
                     <section class="card_article">
                         <h3 class="card_title">SoundBeetle Music</h3>
                         <span class="card_text">SoundBeetle is a cutting-edge music licensing company that is changing
@@ -169,7 +175,7 @@
                             into a reality.</span>
                     </section>
                 </div>
-            </article>
+            </div>
         </section>
 
         <!-- contact section  -->
@@ -206,11 +212,14 @@
                 <div class="side_form"> <!-- description of what happens after client fills and submits form-->
                     <h4 class="card_title">What Comes Next</h4>
                     <ol>
-                        <li class="card_text">Our sales team will be in touch with you within a few days after carefully evaluating your
+                        <li class="card_text">Our sales team will be in touch with you within a few days after carefully
+                            evaluating your
                             business needs.</li>
-                        <li class="card_text">To maintain the highest level of privacy, we will also be signing a Non-Disclosure Agreement
+                        <li class="card_text">To maintain the highest level of privacy, we will also be signing a
+                            Non-Disclosure Agreement
                             (NDA).</li>
-                        <li class="card_text">Afterwards, our pre-sales manager will provide you with project estimates and an approximate
+                        <li class="card_text">Afterwards, our pre-sales manager will provide you with project estimates
+                            and an approximate
                             timeline for the project.</li>
                     </ol>
                 </div>
