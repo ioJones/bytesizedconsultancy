@@ -1,3 +1,7 @@
+/* import google font family  */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Poppins&family=Roboto:wght@300&display=swap');
+
+
 /* reset */
 *{
     margin:0;
@@ -21,16 +25,49 @@ button{
 body{
     background-color: var(--clr-pry);
     color: var(--clr-sec);
+    font-family: 'Poppins', sans-serif;
 }
-
 /* root variable declarations */
 :root{
+    /* colors  */
     --clr-pry: #ccc;
     --clr-sec:#333;
     --clr-accent-light: #0099cc;
     --clr-accent-dark: #003366;
+    /* typography sizing  */
+    --text-xs:clamp(0.75rem, 1vw, 1rem);
+    --text-sm:clamp(1rem, 2vw, 1.2rem);
+    --text-md:clamp(1.5rem, 3vw, 2rem);
+    --text-lg: clamp(2rem, 4vw, 2.5rem);
+    --text-xl:clamp(2.4rem, 4.5vw, 3rem);
+    --text-2xl: clamp(2.8rem, 5vw, 3.5rem);
+
 
 }
+
+/* typography */
+h1{font-size: var(--text-2xl);}
+h2{font-size: var(--text-md);}
+h3{font-size: var(--text-lg);}
+h4{font-size: var(--text-lg);}
+p,span{font-size: var(--text-sm);}
+
+.section_title{
+    font-size: var(--text-lg);
+}
+.section_text{
+    font-size: var(--text-sm);
+}
+.card_title{
+    font-size: var(--text-sm);
+}
+.card_text{
+    font-size:var(--text-xs);
+}
+
+
+
+
 
 /* boxes & containers */
 .container{
