@@ -141,7 +141,10 @@ header{
 }
 
 .case_carousel{
+    margin: 6rem 0;
     border-radius: 10px;
+    overflow: hidden;
+    gap: 4px;
 }
 .case_card{
     display:flex;
@@ -155,4 +158,27 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+/* contact section  */
+.form{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.side_form{
+    background-color: var(--clr-accent-light);
+    padding: 3rem;
+}
+
+form{
+    padding: 2rem;
+}
+.form_field{
+display: flex;
+flex-direction: column;
+margin-top: 1.2rem;
+}
+label{
+    font-size: var(--text-xs);
+    text-transform: uppercase;
 }
