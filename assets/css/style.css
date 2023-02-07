@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+nav>ul>li{
+    list-style-type: none;
+}
+
 a{
     text-decoration: none;
 }
@@ -13,6 +17,10 @@ a{
 button{
     all:unset;
     cursor: pointer;
+}
+body{
+    background-color: var(--clr-pry);
+    color: var(--clr-sec);
 }
 
 /* root variable declarations */
@@ -30,4 +38,24 @@ button{
     min-width: 300px;
     max-width: 1124px;
     margin: 0 auto;
+}
+
+.flex{
+    display:flex;
+}
+.grid{
+    display:grid;
+}
+
+/* header and nav  */
+header{
+    width:100vw;
+}
+.header{
+    justify-content: space-between;
+}
+
+.nav_items{
+    gap: 1.5rem;
+    align-items: center;
 }
