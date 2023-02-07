@@ -50,6 +50,7 @@ body{
 /* header and nav  */
 header{
     width:100vw;
+    padding: 2rem 0;
 }
 .header{
     justify-content: space-between;
