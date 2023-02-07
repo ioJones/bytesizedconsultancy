@@ -13,3 +13,12 @@ button{
     all:unset;
     cursor: pointer;
 }
+
+/* root variable declarations */
+:root{
+    --clr-pry: #ccc;
+    --clr-sec:#333;
+    --clr-accent-light: #0099cc;
+    --clr-accent-dark: #003366;
+
+}
