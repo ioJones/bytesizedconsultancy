@@ -35,6 +35,7 @@ body{
     --clr-pry-light:#e9e9e9;
     --clr-sec:#333;
     --clr-accent-light: #0099cc;
+    --clr-accent-md: #006f94;
     --clr-accent-dark: #003366;
     /* typography sizing  */
     --text-xs:clamp(0.75rem, 1vw, 1rem);
@@ -197,7 +198,16 @@ input{
 /* buttons */
 .btn{
     padding: 1rem 1.5rem;
-    border: 1px solid var(--clr-accent-dark);
     font-size: var(--text-xs);
     text-transform: uppercase;
+    transition: ease 0.4s;
+}
+.btn_pry{
+    background-color: var(--clr-accent-dark);
+    color: var(--clr-pry-light)
+}
+.btn_pry:hover{
+    background-color: var(--clr-accent-light);
+    border: 1px solid var(--clr-accent-dark);
+    color: var(--clr-pry-light);
 }
