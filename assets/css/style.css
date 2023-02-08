@@ -107,6 +107,21 @@ header{
     justify-content: space-between;
 }
 
+/* brand logo and text  */
+.brand{
+    align-items: center;
+    gap:5px;
+}
+.brand span{ /* bytesized logo text */
+    color: var(--clr-accent-light);
+    font-size: 1.3rem;
+}
+.brand a{
+    text-transform: uppercase;
+    font-size: var(--text-xs);
+    letter-spacing: 2px;
+}
+
 .nav_items{
     /* gap: 1.5rem; */
     align-items: center;
