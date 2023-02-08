@@ -298,6 +298,7 @@ input:hover,input:active {
     background-color: var(--clr-accent-light);
     color: var(--clr-pry-light);
     box-shadow: 0px 14px 19px -6px rgba(0,0,0,0.24);
+    scale: 103%;
 
 }
 .btn_sec{
@@ -311,6 +312,15 @@ input:hover,input:active {
 }
 .btn_sec:hover{
     gap: 0.9rem;
+}
+.cta{
+    border: 1px solid var(--clr-pry-light);
+    color: var(--clr-pry-light);
+    margin-top: 3rem;
+}
+.cta:hover{
+    border: none;
+    scale: 103%;
 }
 
 /* get in touch banner */
