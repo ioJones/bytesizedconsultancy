@@ -41,7 +41,7 @@ body{
     --clr-sec:#333;
     --clr-accent-light: #0099cc;
     --clr-accent-md: #006f94;
-    --clr-accent-dark: #003366;
+    --clr-accent-dark: rgb(0, 51, 102);
     /* typography sizing  */
     --text-xs:clamp(0.75rem, 1vw, 1rem);
     --text-sm:clamp(1rem, 2vw, 1.2rem);
@@ -52,7 +52,10 @@ body{
 }
 
 /* typography */
-h1{font-size: var(--text-2xl);}
+h1, .main_title{
+    font-size: var(--text-2xl);
+q
+}
 h2{font-size: var(--text-md);}
 h3{font-size: var(--text-lg);}
 h4{font-size: var(--text-lg);}
@@ -125,6 +128,7 @@ header{
 .hero{
     background-image: url(/assets/images/man-hand-holding-virtual-world-with-internet-connection-metaverse-global-business-marketing-banking-financial-pass-thru-application-technology-concept.jpg);
     background-size: cover;
+    background-position: 0 20%;
     color: var(--clr-accent-dark);
     width:100vw;
     height: 70vh;
@@ -132,11 +136,27 @@ header{
     justify-content: center;
     text-align: center;
     background-color: var(--clr-accent-light);
+    position:relative;
 }
 
 .hero2{
     height: 30vh;
-
+}
+.main_text{
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    color: var(--clr-pry-light)
+}
+/* hero bg overlay  */
+.bg_overlay{
+    position: absolute;
+    background: linear-gradient(180deg, rgba(38, 100, 162, 0.7) 0%, rgba(0,153,204,0.8) 100%);
+    top:0;
+    left:0;
+    width: 100vw;
+    height:100%;
+    z-index:0;
 }
 
 /* who are we section  */
@@ -314,6 +334,7 @@ footer{
     }
     /* mobile menu icon  */
     .hamburger_icon{
+        display: block;
         position:absolute;
         top:34px;
         right:34px;
