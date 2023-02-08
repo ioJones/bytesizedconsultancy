@@ -138,6 +138,10 @@ header{
 .hamburger_icon{
     display: none;
 }
+/* current page highlight */
+[aria-current='page']{
+    border-bottom: 1px solid var(--clr-accent-light);
+}
 
 /* hero section  */
 .hero{
