@@ -229,4 +229,14 @@ input:hover,input:active {
     color: var(--clr-pry-light);
 }
 
+/* get in touch banner */
+.cta_banner{
+    background-color: var(--clr-accent-light);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    padding: 2rem 20%;
+}
 
