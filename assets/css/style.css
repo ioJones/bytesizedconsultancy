@@ -78,7 +78,7 @@ p,span{font-size: var(--text-sm);}
     margin: 0 auto;
 }
 section{
-    padding: 3rem 0;
+    padding: 6rem 0;
 }
 
 .flex{
@@ -133,6 +133,7 @@ header{
     gap: 3px;
     border-radius: 10px;
     overflow: hidden;
+    margin: 3rem 0;
 }
 
 /* case studies section  */
@@ -276,5 +277,7 @@ footer{
     gap: 3rem;
     align-items: center;
     text-align: center;
+    background-color: var(--clr-accent-dark);
+    color: var(--clr-pry-light);
 
 }
