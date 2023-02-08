@@ -17,6 +17,7 @@ nav>ul>li{
 
 a{
     text-decoration: none;
+    color: inherit;
 }
 
 button{
@@ -178,7 +179,15 @@ header{
 form{
     padding: 2rem;
     background-color: var(--clr-pry-light);
-    
+}
+
+/* who we are section  */
+.about{
+    text-align: center;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
 }
 
 /* form input field */
@@ -213,13 +222,13 @@ input:hover,input:active {
 
 /* buttons */
 .btn{
-    padding: 1rem 1.5rem;
     font-size: var(--text-xs);
     text-transform: uppercase;
     transition: ease 0.4s;
-    border-radius: 5px;
 }
 .btn_pry{
+    border-radius: 5px;
+    padding: 1rem 1.5rem;
     background-color: var(--clr-accent-dark);
     color: var(--clr-pry-light)
 }
@@ -227,6 +236,10 @@ input:hover,input:active {
     background-color: var(--clr-accent-light);
     border: 1px solid var(--clr-accent-dark);
     color: var(--clr-pry-light);
+}
+.btn_sec{
+    border-bottom: 2px solid var(--clr-accent-light);
+    color: var(var(--clr-sec));
 }
 
 /* get in touch banner */
