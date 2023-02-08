@@ -172,7 +172,10 @@ header{
 
 form{
     padding: 2rem;
+    background-color: var(--clr-accent-dark);
 }
+
+/* form input field */
 .form_field{
 display: flex;
 flex-direction: column;
@@ -181,4 +184,12 @@ margin-top: 1.2rem;
 label{
     font-size: var(--text-xs);
     text-transform: uppercase;
+    color: var(--clr-pry-light)
+}
+
+input{
+    background: var(--clr-pry);
+    border:none;
+    border-bottom: 2px solid var(--clr-accent-light);
+    height: 2rem;
 }
