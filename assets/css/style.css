@@ -164,6 +164,9 @@ header{
 /* contact section  */
 .form{
     grid-template-columns: repeat(2,1fr);
+    border-radius: 10px;
+    overflow:hidden;
+    margin-top: 4rem;
 }
 
 .side_form{
@@ -174,6 +177,7 @@ header{
 form{
     padding: 2rem;
     background-color: var(--clr-pry-light);
+    
 }
 
 /* form input field */
