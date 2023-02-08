@@ -257,7 +257,6 @@ input:hover,input:active {
 }
 .btn_sec:hover{
     gap: 0.9rem;
-
 }
 
 /* get in touch banner */
@@ -271,3 +270,10 @@ input:hover,input:active {
     padding: 2rem 20%;
 }
 
+footer{
+    display:flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+
+}
