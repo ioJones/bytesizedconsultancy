@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Poppins&family=Roboto:wght@300&display=swap');
 
 
+
 /* reset */
 *{
     margin:0;
@@ -227,3 +228,5 @@ input:hover,input:active {
     border: 1px solid var(--clr-accent-dark);
     color: var(--clr-pry-light);
 }
+
+
