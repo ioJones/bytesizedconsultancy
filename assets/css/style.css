@@ -134,6 +134,8 @@ header{
     height: 30vh;
 
 }
+
+/* who are we section  */
 .services_cards{
     grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
     gap: 3px;
@@ -141,6 +143,8 @@ header{
     overflow: hidden;
     margin: 3rem 0;
 }
+/* why choose us section  */
+
 
 /* case studies section  */
 .case_studies{
@@ -277,6 +281,7 @@ input:hover,input:active {
     padding: 2rem 20%;
 }
 
+/* footer  */
 footer{
     display:flex;
     flex-direction: column;
@@ -290,5 +295,21 @@ footer{
 
 /* media queries */
 @media (max-width:600px) {
+    .nav_items{
+        /* display:flex; */
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .header{
+        flex-direction: column;
+        align-items: center;
+        gap:4rem;
+    }
+    .hamburger_icon{
+        position:absolute;
+        top:40px;
+        right:20px;
+        font-size: 1.2rem;
+    }
     
 }
