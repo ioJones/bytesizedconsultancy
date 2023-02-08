@@ -295,6 +295,9 @@ footer{
 
 /* media queries */
 @media (max-width:600px) {
+    nav{
+        display: none;
+    }
     .nav_items{
         /* display:flex; */
         flex-direction: column;
@@ -311,5 +314,7 @@ footer{
         right:20px;
         font-size: 1.2rem;
     }
-    
+    #toggle:checked ~ nav{
+        display: flex;
+    }
 }
