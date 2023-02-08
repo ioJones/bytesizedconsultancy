@@ -129,12 +129,13 @@ header{
     justify-content: center;
     background-color: var(--clr-accent-light);
 }
+
 .hero2{
     height: 30vh;
 
 }
 .services_cards{
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
     gap: 3px;
     border-radius: 10px;
     overflow: hidden;
@@ -285,4 +286,9 @@ footer{
     background-color: var(--clr-accent-dark);
     color: var(--clr-pry-light);
 
+}
+
+/* media queries */
+@media (max-width:600px) {
+    
 }
