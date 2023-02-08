@@ -54,7 +54,7 @@ body{
 /* typography */
 h1, .main_title{
     font-size: var(--text-2xl);
-q
+
 }
 h2{font-size: var(--text-md);}
 h3{font-size: var(--text-lg);}
