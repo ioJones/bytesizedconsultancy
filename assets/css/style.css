@@ -283,21 +283,22 @@ input:hover,input:active {
 
 /* buttons */
 .btn{
-    font-size: var(--text-xs);
     text-transform: uppercase;
     transition: ease 0.4s;
 }
 .btn_pry{
+    font-size: 12px;
     border-radius: 5px;
-    padding: 1rem 1.5rem;
+    padding: 0.7rem 1.2rem;
+    border: 1px solid var(--clr-accent-light);
+    /* background-color: var(--clr-accent-light); */
+    color: var(--clr-accent-light);
+}
+.btn_pry:hover{
     background-color: var(--clr-accent-light);
     color: var(--clr-pry-light);
     box-shadow: 0px 14px 19px -6px rgba(0,0,0,0.24);
-}
-.btn_pry:hover{
-    background-color: var(--clr-accent-dark);
-    border: 1px solid var(--clr-accent-dark);
-    color: var(--clr-pry-light);
+
 }
 .btn_sec{
     display:flex;
