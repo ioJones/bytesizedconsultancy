@@ -104,8 +104,18 @@ header{
 }
 
 .nav_items{
-    gap: 1.5rem;
+    /* gap: 1.5rem; */
     align-items: center;
+}
+.nav_item{
+    padding: 1rem 3rem;
+    border-radius:5px;
+}
+.nav_item:hover{
+    border-bottom: var(--clr-accent-light);
+    background-color: #003366;
+    color: var(--clr-pry-light)
+
 }
 
 /* hero section  */
