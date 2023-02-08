@@ -120,7 +120,9 @@ header{
 
 /* hero section  */
 .hero{
-    color: var(--clr-pry-light);
+    background-image: url(/assets/images/man-hand-holding-virtual-world-with-internet-connection-metaverse-global-business-marketing-banking-financial-pass-thru-application-technology-concept.jpg);
+    background-size: cover;
+    color: var(--clr-accent-dark);
     width:100vw;
     height: 70vh;
     align-items: center;
