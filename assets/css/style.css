@@ -173,7 +173,7 @@ header{
 
 form{
     padding: 2rem;
-    background-color: var(--clr-accent-dark);
+    background-color: var(--clr-pry-light);
 }
 
 /* form input field */
@@ -185,7 +185,7 @@ margin-top: 1.2rem;
 label{
     font-size: var(--text-xs);
     text-transform: uppercase;
-    color: var(--clr-pry-light)
+    color: var(--clr-accent-light)
 }
 
 input{
