@@ -193,3 +193,11 @@ input{
     border-bottom: 2px solid var(--clr-accent-light);
     height: 2rem;
 }
+
+/* buttons */
+.btn{
+    padding: 1rem 1.5rem;
+    border: 1px solid var(--clr-accent-dark);
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+}
