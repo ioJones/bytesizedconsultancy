@@ -290,11 +290,12 @@ input:hover,input:active {
 .btn_pry{
     border-radius: 5px;
     padding: 1rem 1.5rem;
-    background-color: var(--clr-accent-dark);
-    color: var(--clr-pry-light)
+    background-color: var(--clr-accent-light);
+    color: var(--clr-pry-light);
+    box-shadow: 0px 14px 19px -6px rgba(0,0,0,0.24);
 }
 .btn_pry:hover{
-    background-color: var(--clr-accent-light);
+    background-color: var(--clr-accent-dark);
     border: 1px solid var(--clr-accent-dark);
     color: var(--clr-pry-light);
 }
