@@ -63,9 +63,12 @@ p,span{font-size: var(--text-sm);}
 
 .section_title{
     font-size: var(--text-lg);
+    text-align: center;
 }
 .section_text{
     font-size: var(--text-sm);
+    text-align: center;
+
 }
 .card_title{
     font-size: var(--text-sm);
