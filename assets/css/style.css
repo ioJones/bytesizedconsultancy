@@ -183,7 +183,6 @@ form{
 
 /* who we are section  */
 .about{
-    text-align: center;
     flex-direction: column;
     gap: 2rem;
     justify-content: center;
@@ -238,8 +237,17 @@ input:hover,input:active {
     color: var(--clr-pry-light);
 }
 .btn_sec{
+    display:flex;
+    align-items: center;
+    justify-content: center;
     border-bottom: 2px solid var(--clr-accent-light);
     color: var(var(--clr-sec));
+    gap: 0.5rem;
+    text-transform: capitalize;
+}
+.btn_sec:hover{
+    gap: 0.9rem;
+
 }
 
 /* get in touch banner */
