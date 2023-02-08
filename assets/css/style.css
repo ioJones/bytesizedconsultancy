@@ -127,7 +127,10 @@ header{
     justify-content: center;
     background-color: var(--clr-accent-light);
 }
+.hero2{
+    height: 30vh;
 
+}
 .services_cards{
     grid-template-columns: repeat(3,1fr);
     gap: 3px;
