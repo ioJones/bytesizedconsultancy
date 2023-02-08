@@ -252,7 +252,7 @@ input:hover,input:active {
     align-items: center;
     justify-content: center;
     border-bottom: 2px solid var(--clr-accent-light);
-    color: var(var(--clr-sec));
+    color: var(--clr-sec);
     gap: 0.5rem;
     text-transform: capitalize;
 }
