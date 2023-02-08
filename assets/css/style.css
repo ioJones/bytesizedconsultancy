@@ -197,6 +197,13 @@ input{
     border:none;
     border-bottom: 2px solid var(--clr-accent-light);
     height: 2rem;
+    border-radius: 5px;
+    padding: 0 0.5rem;
+}
+
+input:hover,input:active {
+    background-color:var(--clr-pry-light);
+
 }
 #message{
     height: 12rem;
