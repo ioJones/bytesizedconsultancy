@@ -13,28 +13,26 @@
 
 <body>
     <header>
-        <div class="header flex container">
+        <!-- navbar -->
+        <nav class="header flex container">
             <!-- main brand logo -->
-            <div class="brand flex">
+            <section class="brand flex">
                 <img src="/assets/images/logo.svg" alt="" class="brand_icon">
-                <a class="brand" href="index.html"><span>ByteSized</span> <br> Solutions</a>
-            </div>
+                <a class="brand" href="index.html">
+                    <h1><span>ByteSized</span><br> Solutions</h1>
+                </a>
+            </section>
+            <!--mobile nav toggle-->
+            <label class="hamburger_icon" for="toggle"><i class="fa fa-bars"></i></label>
+            <input type="checkbox" name="" id="toggle" hidden>
 
-
-            <!-- navigation links -->
-            <nav>
-                <!--mobile nav toggle-->
-                <label class="hamburger_icon" for="toggle"><i class="fa fa-bars"></i></label>
-                <input type="checkbox" name="" id="toggle" hidden>
-
-                <ul class=" nav_items flex">
-                    <li><a aria-current="page" class="nav_item" href="index.html">Home</a></li>
-                    <li><a class="nav_item" href="#about">About</a></li>
-                    <li><a class="nav_item" href="/projects/">Projects</a></li>
-                    <li><a class="nav_item btn btn_pry" href="#contact">Get In Touch</a></li>
-                </ul>
-            </nav>
-        </div>
+            <ul class=" nav_items flex">
+                <li><a aria-current="page" class="nav_item" href="index.html">Home</a></li>
+                <li><a class="nav_item" href="#about">About</a></li>
+                <li><a class="nav_item" href="/projects/">Projects</a></li>
+                <li><a class="nav_item btn btn_pry" href="#contact">Get In Touch</a></li>
+            </ul>
+        </nav>
     </header>
 
     <!-- main site content -->
@@ -45,13 +43,13 @@
             <div class="main_text flex row">
                 <h1 class="main_title">We are ByteSized Solutions</h1>
                 <p class="main_subtitle">Your Trusted IT Consultants</p>
-            <a href="#contact" class="btn btn_pry cta">Get In Touch</a>
+                <a href="#contact" class="btn btn_pry cta">Get In Touch</a>
             </div>
 
         </section>
 
         <!-- who we are section -->
-        <section class="about container flex" id="about">
+        <section class="about container flex section_spacing" id="about">
             <h2 class="section_title">Who We Are</h2>
             <p class="section_text">At ByteSized Solutions, we are a team of IT experts dedicated to helping businesses
                 stay ahead of the game in the ever-evolving digital landscape. We understand that technology can be both
@@ -63,7 +61,7 @@
         </section>
 
         <!-- services section  -->
-        <section class="services container">
+        <section class="services container section_spacing">
             <h2 class="section_title">What We Offer</h2>
 
             <!-- services cards -->
@@ -113,11 +111,11 @@
         </section>
 
         <!-- why choose us section  -->
-        <section class="offers container">
+        <section class="offers container section_spacing">
             <h2 class="section_title">Why Choose Us</h2>
 
             <!-- offers cards -->
-            <div class="services_cards flex">
+            <div class="services_cards grid">
                 <div class="card offer flex">
                     <img src="" alt="offers_card_image" class="offers_card_image">
                     <div class="card_article">
@@ -156,7 +154,7 @@
         </section>
 
         <!-- get in touch banner -->
-        <section class="cta_banner">
+        <section class="cta_banner section_spacing">
             <h3 class="section_title">Get In Touch</h3>
             <p class="section_text">Don't let technology be a burden for your business. Take the first step towards a
                 more efficient and secure future by reaching out to ByteSized Solutions today. Our team is ready to help
@@ -165,7 +163,7 @@
         </section>
 
         <!--projects ||  success stories || case studies -->
-        <section class="case_studies container">
+        <section class="case_studies container section_spacing">
             <h2 class="section_title">Case Studies</h2>
             <p class="section_text">See how we have helped businesses like yours reach their goals with our IT
                 solutions. Our portfolio showcases a diverse range of industries, each with its own unique challenges
@@ -220,7 +218,7 @@
 
         <!-- contact section  -->
 
-        <section id="contact" class="contact container">
+        <section id="contact" class="contact container section_spacing">
             <h3 class="section_title">Get In Touch</h3>
             <p class="section_text">Don't let technology be a burden for your business. Take the first step towards a
                 more efficient and secure future by reaching out to ByteSized Solutions today. Our team is ready to help
