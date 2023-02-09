@@ -238,6 +238,12 @@ header {
 }
 
 /* why choose us section  */
+.offer img{
+    width:150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+}
 
 
 /* case studies section  */
