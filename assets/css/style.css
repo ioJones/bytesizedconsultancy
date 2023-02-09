@@ -34,6 +34,8 @@ body {
     color: var(--clr-sec);
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
+    top:0;
+    left:0;
 }
 
 /* root variable declarations */
@@ -149,6 +151,7 @@ header {
 
 .header {
     justify-content: space-between;
+    z-index:10;
 }
 
 /* brand logo and text  */
@@ -475,23 +478,31 @@ footer .brand h1 {
 /* media queries */
 @media (max-width:720px) {
     .nav_items {
-        flex-direction: column;
-        gap: 2rem;
         display: none;
+        position: absolute;
+        justify-content: center;
+        flex-direction: column;
+        top: 100%;
+        left:50%;
+        transform:translateX(-50%);
+        gap: 2rem;
+        width: 100vw;
+        height:100vh;
+        background-color: var(--clr-pry-light);
+        z-index:-2;
+
+       
     }
 
     /* change flex direction for mobile menu  */
     .header {
-        flex-direction: column;
+        /* flex-direction: column; */
         align-items: center;
     }
 
     /* mobile menu icon  */
     .hamburger_icon {
         display: block;
-        position: absolute;
-        top: 34px;
-        right: 34px;
         font-size: 1.2rem;
     }
 
