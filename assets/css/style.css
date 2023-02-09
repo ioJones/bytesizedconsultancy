@@ -233,6 +233,7 @@ header {
     border-radius: 10px;
     overflow: hidden;
     margin: 3rem 0;
+    padding: 2rem;
 }
 
 /* why choose us section  */
@@ -249,9 +250,8 @@ header {
     padding: 3rem;
 }
 .card:hover{
-    scale: 103%;
+    scale: 101%;
     box-shadow: var(--shadow-hover);
-    cursor: pointer;
 }
 
 .card_image {
