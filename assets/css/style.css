@@ -193,7 +193,8 @@ header {
 /* current page highlight */
 [aria-current='page'] {
     color: var(--clr-accent-light);
-    border-top: 2px solid var(--clr-accent-light);
+    border-bottom: 2px solid var(--clr-accent-light);
+    padding-bottom: 5px;
 
 }
 
@@ -494,7 +495,7 @@ footer .brand h1 {
         background-color: var(--clr-pry-light);
         z-index:-2;
     }
-    
+
 
     /* change flex direction for mobile menu  */
     .header {
