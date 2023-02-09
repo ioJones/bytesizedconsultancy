@@ -53,6 +53,8 @@ body {
     --text-lg: clamp(2rem, 4vw, 2.5rem);
     --text-xl: clamp(2.4rem, 4.5vw, 3rem);
     --text-2xl: clamp(2.8rem, 5vw, 3.5rem);
+    /* box-shadows  */
+    --shadow-hover: 0px 14px 19px -6px rgba(0, 0, 0, 0.24)
 }
 
 /* typography */
@@ -355,7 +357,7 @@ input:active {
 .btn_pry:hover {
     background-color: var(--clr-accent-light);
     color: var(--clr-pry-light);
-    box-shadow: 0px 14px 19px -6px rgba(0, 0, 0, 0.24);
+    box-shadow: var(--shadow-hover);
     scale: 103%;
 }
 
