@@ -246,6 +246,11 @@ header {
     background-color: var(--clr-pry-light);
     padding: 3rem;
 }
+.card:hover{
+    scale: 103%;
+    box-shadow: var(--shadow-hover);
+    cursor: pointer;
+}
 
 .card_image {
     background-color: var(--clr-accent-dark);
