@@ -13,26 +13,32 @@
 
 <body>
     <header>
-        <div class="header flex container">
+        <!-- navbar -->
+        <nav class="header flex container">
             <!-- main brand logo -->
-            <a href="index.html">ByteSized Consultants</a>
+            <section class="brand flex">
+                <img src="/assets/images/logo.svg" alt="" class="brand_icon">
+                <a class="brand" href="index.html">
+                    <h1><span>ByteSized</span><br> Solutions</h1>
+                </a>
+            </section>
+            <!--mobile nav toggle-->
+            <label class="hamburger_icon" for="toggle"><i class="fa fa-bars"></i></label>
+            <input type="checkbox" name="" id="toggle" hidden>
 
-            <!-- navigation links -->
-            <nav>
-                <ul class=" nav_items flex">
-                    <li><a class="active nav_item" href="index.html">Home</a></li>
-                    <li><a class="nav_item" href="about.html">About</a></li>
-                    <li><a class="nav_item" href="projects.html">Case Studies</a></li>
-                    <li><a class="nav_item btn btn_pry" href="#contact">Get In Touch</a></li>
-                </ul>
-            </nav>
-        </div>
+            <ul class=" nav_items flex">
+                <li><a aria-current="page" class="nav_item" href="index.html">Home</a></li>
+                <li><a class="nav_item" href="#about">About</a></li>
+                <li><a class="nav_item" href="#projects">Projects</a></li>
+                <li><a class="nav_item btn btn_pry" href="#contact">Get In Touch</a></li>
+            </ul>
+        </nav>
     </header>
 
     <!-- main site content -->
     <main>
         <!-- hero section -->
-        <section id="hero" class="hero flex row">
+        <section id="hero" class="hero hero2 flex row">
             <h1 class="main_title">We are ByteSized Solutions</h1>
             <p class="main_subtitle">Your Trusted IT Consultants</p>
             <a href="#contact" class="btn btn_pry cta">Get In Touch</a>
