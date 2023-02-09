@@ -426,9 +426,23 @@ footer {
 }
 
 /* footer nav  */
-footer .brand{
-    color:white;
+footer .brand {
+    align-items: center;
+    gap: 5px;
 }
+
+footer .brand span {
+    /* bytesized logo text */
+    color: var(--clr-pry-light);
+    font-size: 1.3rem;
+}
+
+footer .brand h1 {
+    text-transform: uppercase;
+    font-size: var(--text-xs);
+    letter-spacing: 2px;
+}
+
 .footer_nav{
     gap:3rem;
 }
