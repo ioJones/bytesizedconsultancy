@@ -39,7 +39,7 @@ body {
 /* root variable declarations */
 :root {
     /* colors  */
-    --clr-pry: #ccc;
+    --clr-pry: #dcdada;
     --clr-pry-light: #e9e9e9;
     --clr-sec: #333;
     --clr-accent-light: #0099cc;
@@ -59,7 +59,6 @@ body {
 h1,
 .main_title {
     font-size: var(--text-2xl);
-
 }
 
 h2 {
@@ -82,6 +81,7 @@ span {
 .section_title {
     font-size: var(--text-lg);
     text-align: center;
+    color: var(--clr-accent-light);
 }
 
 .section_text {
@@ -106,7 +106,8 @@ span {
     margin: 0 auto;
 }
 
-.section_spacing { /*to space se
+.section_spacing {
+    /* to space sections */
     padding: 6rem 0;
 }
 
@@ -176,7 +177,7 @@ header {
 
 /* current page highlight */
 [aria-current='page'] {
-    border-bottom: 1px solid var(--clr-accent-light);
+    color: var(--clr-accent-light);
 }
 
 /* hero section  */
@@ -317,7 +318,6 @@ input {
 input:hover,
 input:active {
     background-color: var(--clr-pry-light);
-
 }
 
 #message {
@@ -337,7 +337,6 @@ input:active {
     border-radius: 5px;
     padding: 0.7rem 1.2rem;
     border: 1px solid var(--clr-accent-light);
-    /* background-color: var(--clr-accent-light); */
     color: var(--clr-accent-light);
 }
 
@@ -360,7 +359,6 @@ input:active {
 }
 
 .btn_sec:hover {
-    content: 'yh';
     gap: 0.9rem;
     border-bottom: 2px solid var(--clr-accent-light);
 
@@ -386,6 +384,10 @@ input:active {
     text-align: center;
     gap: 2rem;
     padding: 2rem 20%;
+    color: var(--clr-pry-light);
+}
+.cta_banner .section_title{
+    color:var(--clr-pry-light);
 }
 
 /* footer  */
