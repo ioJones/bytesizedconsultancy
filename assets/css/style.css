@@ -526,3 +526,11 @@ footer .brand h1 {
     object-fit: cover;
 
 }
+
+/* ====== PROJECTS PAGE  ======*/
+.sub_title{
+    font-size: var(--text-md);
+}
+.article_text{
+    font-size: var(--text-sm);
+}
