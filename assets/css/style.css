@@ -39,8 +39,8 @@ body {
 /* root variable declarations */
 :root {
     /* colors  */
-    --clr-pry: #dcdada;
-    --clr-pry-light: #e9e9e9;
+    --clr-pry: #e0e8ea;
+    --clr-pry-light: #fcfcfc;
     --clr-sec: #333;
     --clr-accent-light: #0099cc;
     --clr-accent-transparent: rgba(0, 153, 204,0.3);
