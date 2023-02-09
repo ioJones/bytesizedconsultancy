@@ -473,7 +473,7 @@ footer .brand h1 {
 }
 
 /* media queries */
-@media (max-width:600px) {
+@media (max-width:720px) {
     .nav_items {
         flex-direction: column;
         gap: 2rem;
