@@ -42,7 +42,7 @@ body {
     --clr-pry: #e0e8ea;
     --clr-pry-light: #fcfcfc;
     --clr-sec: #333;
-    --clr-accent-light: #0099cc;
+    --clr-accent-light: rgb(0, 153, 204);
     --clr-accent-transparent: rgba(0, 153, 204,0.3);
     --clr-accent-dark: rgb(0, 51, 102);
     --clr-gradient: linear-gradient(180deg, rgba(38, 100, 162, 0.7) 0%, rgba(0, 153, 204, 0.8) 100%);
@@ -417,13 +417,13 @@ input:active {
 /* get in touch banner */
 .cta_banner {
     background-color: var(--clr-accent-light);
-    background-image: url(/assets/images/wave.svg);
+    background-image: url(/assets/images/typing.jpg);
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     gap: 2rem;
-    padding: 2rem 20%;
+    padding: 3rem 20%;
     color: var(--clr-pry-light);
 }
 .cta_banner .section_title{
@@ -432,6 +432,7 @@ input:active {
 
 /* footer  */
 footer {
+    background-image: url(/assets/images/wave.svg);
     padding: 2rem 0;
     gap: 3rem;
     align-items: center;
