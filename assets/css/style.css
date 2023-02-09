@@ -136,6 +136,10 @@ span {
 .relative{
     position:relative;
 }
+.center{
+    justify-content: center;
+    align-items:center;
+}
 
 /* header and nav  */
 header {
