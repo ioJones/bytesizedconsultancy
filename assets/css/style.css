@@ -130,7 +130,7 @@ span {
 /* header and nav  */
 header {
     width: 100vw;
-    /* padding: 2rem 0; */
+    margin-top: 0.2rem;
 }
 
 .header {
@@ -156,19 +156,17 @@ header {
 }
 
 .nav_items {
-    /* gap: 1.5rem; */
+    gap: 0.3rem;
     align-items: center;
 }
 
 .nav_item {
-    padding: 1rem 3rem;
-    border-radius: 5px;
+    padding: 1rem 1.5rem;
+    transition: ease 0.4s;
 }
 
 .nav_item:hover {
-    border-bottom: var(--clr-accent-light);
-    background-color: #003366;
-    color: var(--clr-pry-light);
+    color: var(--clr-accent-light);
 }
 
 .hamburger_icon {
@@ -178,6 +176,8 @@ header {
 /* current page highlight */
 [aria-current='page'] {
     color: var(--clr-accent-light);
+    border-top: 2px solid var(--clr-accent-light);
+
 }
 
 /* hero section  */
