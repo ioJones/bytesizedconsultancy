@@ -479,10 +479,11 @@ footer .brand h1 {
 @media (max-width:720px) {
     .nav_items {
         display: flex;
+        width: 100vw;
         height:0vh;
-        width:100vh;
-        transition: ease 1s;
+        transition: ease 0.5s;
         position: absolute;
+        gap: 2rem;
         justify-content: center;
         flex-direction: column;
         overflow:hidden;
@@ -490,8 +491,10 @@ footer .brand h1 {
         top: 100%;
         left:50%;
         transform:translateX(-50%);
-        
+        background-color: var(--clr-pry-light);
+        z-index:-2;
     }
+    
 
     /* change flex direction for mobile menu  */
     .header {
@@ -507,11 +510,7 @@ footer .brand h1 {
     /* toggle mobile menu  */
     #toggle:checked ~ .nav_items {
         opacity:100;
-        gap: 2rem;
-        width: 100vw;
         height:100vh;
-        background-color: var(--clr-pry-light);
-        z-index:-2;
         
     }
 
