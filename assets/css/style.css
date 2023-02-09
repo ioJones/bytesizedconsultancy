@@ -478,25 +478,23 @@ footer .brand h1 {
 /* media queries */
 @media (max-width:720px) {
     .nav_items {
-        display: none;
+        display: flex;
+        height:0vh;
+        width:100vh;
+        transition: ease 1s;
         position: absolute;
         justify-content: center;
         flex-direction: column;
+        overflow:hidden;
+        opacity: 0;
         top: 100%;
         left:50%;
         transform:translateX(-50%);
-        gap: 2rem;
-        width: 100vw;
-        height:100vh;
-        background-color: var(--clr-pry-light);
-        z-index:-2;
-
-       
+        
     }
 
     /* change flex direction for mobile menu  */
     .header {
-        /* flex-direction: column; */
         align-items: center;
     }
 
@@ -507,8 +505,14 @@ footer .brand h1 {
     }
 
     /* toggle mobile menu  */
-    #toggle:checked~ul {
-        display: flex;
+    #toggle:checked ~ .nav_items {
+        opacity:100;
+        gap: 2rem;
+        width: 100vw;
+        height:100vh;
+        background-color: var(--clr-pry-light);
+        z-index:-2;
+        
     }
 
     .case_card {
