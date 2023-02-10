@@ -34,8 +34,8 @@ body {
     color: var(--clr-sec);
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
 }
 
 /* root variable declarations */
@@ -45,7 +45,7 @@ body {
     --clr-pry-light: #fcfcfc;
     --clr-sec: #333;
     --clr-accent-light: rgb(0, 153, 204);
-    --clr-accent-transparent: rgba(0, 153, 204,0.3);
+    --clr-accent-transparent: rgba(0, 153, 204, 0.3);
     --clr-accent-dark: rgb(0, 51, 102);
     --clr-gradient: linear-gradient(180deg, rgba(38, 100, 162, 0.7) 0%, rgba(0, 153, 204, 0.8) 100%);
     /* typography sizing  */
@@ -80,7 +80,8 @@ h4 {
 }
 
 p,
-span, li{
+span,
+li {
     font-size: var(--text-sm);
 }
 
@@ -114,7 +115,8 @@ span, li{
 
 .section_spacing {
     /* to space sections */
-    padding: 6rem 0;
+    padding: 3rem 0;
+    gap: 2rem;
 }
 
 /* general classifications classes */
@@ -133,15 +135,18 @@ span, li{
 .column {
     flex-direction: row;
 }
-.absolute{
-    position:absolute;
+
+.absolute {
+    position: absolute;
 }
-.relative{
-    position:relative;
+
+.relative {
+    position: relative;
 }
-.center{
+
+.center {
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
 
 /* header and nav  */
@@ -152,7 +157,7 @@ header {
 
 .header {
     justify-content: space-between;
-    z-index:10;
+    z-index: 10;
 }
 
 /* brand logo and text  */
@@ -246,12 +251,13 @@ header {
 }
 
 /* why choose us section  */
-.offer{
+.offer {
     padding: 0 !important;
     background-color: var(--clr-accent-transparent) !important;
 }
-.offer img{
-    width:100%;
+
+.offer img {
+    width: 100%;
     height: 150px;
     object-fit: cover;
     object-position: center;
@@ -267,10 +273,11 @@ header {
 .card {
     background-color: var(--clr-pry-light);
     padding: 3rem;
-    border-radius:5px;
-    overflow:hidden;
+    border-radius: 5px;
+    overflow: hidden;
 }
-.card:hover{
+
+.card:hover {
     scale: 101%;
     box-shadow: var(--shadow-hover);
 }
@@ -300,8 +307,9 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap:1rem;
+    gap: 1rem;
 }
+
 .case_card:hover card
 
 /* contact section  */
@@ -402,11 +410,13 @@ input:active {
     background-color: var(--clr-accent-transparent);
 
 }
-.card_btn{
+
+.card_btn {
     font-size: var(--text-xs);
 
 }
-.card:hover .card_btn{
+
+.card:hover .card_btn {
     background-color: var(--clr-accent-transparent);
     gap: 0.9rem;
     border-bottom: 2px solid var(--clr-accent-light);
@@ -438,8 +448,9 @@ input:active {
     padding: 3rem 20%;
     color: var(--clr-pry-light);
 }
-.cta_banner .section_title{
-    color:var(--clr-pry-light);
+
+.cta_banner .section_title {
+    color: var(--clr-pry-light);
 
 }
 
@@ -472,17 +483,25 @@ footer .brand h1 {
     letter-spacing: 2px;
 }
 
-.footer_nav{
-    gap:3rem;
+.footer_nav {
+    gap: 3rem;
 }
 
-.footer_nav .nav_items{
+/* footer get in touch button  */
+.footer_nav_items .btn {
+    display: grid;
+    gap: 1rem;
+    align-items: center;
+}
+
+.footer_nav .nav_items {
     font-size: var(--text-xs);
     font-weight: 200;
 
 }
-.footer_nav_items_title{
-    text-transform:uppercase;
+
+.footer_nav_items_title {
+    text-transform: uppercase;
 }
 
 /* media queries */
@@ -490,19 +509,19 @@ footer .brand h1 {
     .nav_items {
         display: flex;
         width: 100vw;
-        height:0vh;
+        height: 0vh;
         transition: ease 0.5s;
         position: absolute;
         gap: 2rem;
         justify-content: center;
         flex-direction: column;
-        overflow:hidden;
+        overflow: hidden;
         opacity: 0;
         top: 100%;
-        left:50%;
-        transform:translateX(-50%);
+        left: 50%;
+        transform: translateX(-50%);
         background-color: var(--clr-pry-light);
-        z-index:-2;
+        z-index: -2;
     }
 
 
@@ -518,10 +537,10 @@ footer .brand h1 {
     }
 
     /* toggle mobile menu  */
-    #toggle:checked ~ .nav_items {
-        opacity:100;
-        height:100vh;
-        
+    #toggle:checked~.nav_items {
+        opacity: 100;
+        height: 100vh;
+
     }
 
     .case_card {
@@ -538,32 +557,26 @@ footer .brand h1 {
         grid-template-columns: 1fr;
     }
 
-    /* footer get in touch button  */
-    .footer_nav_items .btn{
-        display: grid;
-        gap: 1rem;
-        align-items: center;
-    }
-
 }
 
 /* ====== ABOUT PAGE ====== */
 
 /* services  */
-.about_services{
+.about_services {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
-.article_image{
+
+.article_image {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
 /* ====== PROJECTS PAGE  ======*/
-.sub_title{
+.sub_title {
     font-size: var(--text-md);
 }
-.article_text{
+
+.article_text {
     font-size: var(--text-sm);
 }
-
