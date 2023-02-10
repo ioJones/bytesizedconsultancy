@@ -106,14 +106,7 @@ The live link can be found here - [ByteSized Solutions Website](https:bytesized-
 ### Content 
 
 - The text/ website copy was generated using Chat GPT. [Chat GPT](https://chatgptonline.net)
-- Videos in the homepage and services pages were gotten from youtube for demonstration purposes only. Respective owners of the video retains their respective rights.
-    - [Business Support](https://www.youtube.com/embed/yBUMLYw17t4)
-    - [kaspersky](https://www.youtube.com/embed/hB1NVzqn7PU)
-    - [Bython Media](https://www.youtube.com/embed/1vV0t2XbtuU)
-    - [CoryAndSteve](https://www.youtube.com/embed/iyLWgpghjHY)
-    - [FingEnt]https://www.youtube.com/embed/4vkIaBUsNvI
-    - [Indeema Software Inc](https://www.youtube.com/embed/fGdqnWWAXE0)
-    - [Tutor2u](https://www.youtube.com/embed/0hzqHwu1i_I)
+- 2D Vector images in the services page was gotten from [FreePik](https://freepik.com)
 - The mobile nav icon was taken from [Font Awesome](https://fontawesome.com/)
 - The icons in the header and body were gotten from [SVG Repo](https://www.svgrepo.com)
 
