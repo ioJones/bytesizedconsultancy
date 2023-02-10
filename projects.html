@@ -16,22 +16,25 @@
         <!-- navbar -->
         <nav class="header flex container relative">
             <!-- main brand logo -->
-            <section class="brand flex">
-                <img src="/assets/images/logo.svg" alt="" class="brand_icon">
-                <a class="brand" href="index.html">
-                    <h1><span>ByteSized</span><br> Solutions</h1>
-                </a>
-            </section>
+
+            <a class="brand grid" href="/index.html">
+                <img src="/assets/images/logo.svg" alt="brand logo" class="brand_icon">
+                <div>
+                    <span>ByteSized</span><br>
+                <span class='brand_solutions'>Solutions</span>
+                </div>
+            </a>
+
             <!--mobile nav toggle-->
             <label class="hamburger_icon" for="toggle"><i class="fa fa-bars"></i></label>
-            <input type="checkbox" name="" id="toggle" hidden>
+            <input type="checkbox" id="toggle" hidden>
 
             <ul class=" nav_items flex">
-                <li><a aria-current="page" class="nav_item" href="index.html">Home</a></li>
-                <li><a class="nav_item" href="about.html">About</a></li>
-                <li><a class="nav_item" href="about.html#services">Services</a></li>
-                <li><a aria-current="page" class="nav_item" href="projects.html">Projects</a></li>
-                <li><a class="nav_item btn btn_pry cta" href="#contact">Get In Touch</a></li>
+                <li><a class="nav_item" href="/projects.html">Home</a></li>
+                <li><a aria-current="page" class="nav_item" href="/about.html">About</a></li>
+                <li><a class="nav_item" href="/about.html">Services</a></li>
+                <li><a class="nav_item" href="/projects.html">Projects</a></li>
+                <li><a class="nav_item btn btn_pry" href="#contact">Get In Touch</a></li>
             </ul>
         </nav>
     </header>
@@ -109,19 +112,19 @@
             <!-- footer nav  -->
             <nav class="footer_nav flex row">
                 <!-- main brand logo -->
-                <section class="brand flex">
-                    <img src="/assets/images/logo_white.svg" alt="" class="brand_icon">
-                    <a class="brand" href="index.html">
-                        <h1><span>ByteSized</span><br> Solutions</h1>
+                <div class="brand flex">
+                    <img src="/assets/images/logo_white.svg" alt="brand logo" class="brand_icon">
+                    <a class="brand" href="/index.html">
+                        <span>ByteSized</span><br> Solutions
                     </a>
-                </section>
-                <ul class=" nav_items flex row">
-                    <h6 class="footer_nav_items_title">Navigation</h6>
-                    <li><a class="nav_item" href="index.html">Home</a></li>
-                    <li><a class="nav_item" href="about.html">About</a></li>
-                    <li><a class="nav_item" href="about.html/#services">Services</a></li>
-                    <li><a class="nav_item" href="projects.html">Projects</a></li>
-                    <li><a class="nav_item btn btn_pry" href="#contact">Get In Touch</a></li>
+                </div>
+                <ul class=" footer_nav_items flex row">
+                    <li class="footer_nav_items_title">Navigation</li>
+                    <li><a class="nav_item" href="/index.html">Home</a></li>
+                    <li><a class="nav_item" href="/about.html">About</a></li>
+                    <li><a class="nav_item" href="/about.html/#services">Services</a></li>
+                    <li><a class="nav_item" href="/projects.html">Projects</a></li>
+                    <li><a class="nav_item btn btn_pry cta" href="#contact">Get In Touch</a></li>
                 </ul>
             </nav>
             <p>©2023 ByteSized Solutions. All rights reserved</p>
