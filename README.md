@@ -58,9 +58,13 @@ About us page:
   - Featured on all pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
   - This section contains links that allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
+- __Form__
+    Accesible via a cta on all pages in footer and header.
+
 ### Features Left to Implement
 
 - Signup for newsletter
+- Drop down menu for pages with sub pages, for example the service page.
 - -A simple blog for news
 - Sticky Live chat
 - User Prefers Dark/Light mode for easy switching between themes.
