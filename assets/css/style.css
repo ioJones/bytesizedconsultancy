@@ -208,7 +208,7 @@ header {
 /* hero section  */
 .hero {
     background-color: var(--clr-accent-light);
-    background-image: url(/assets/images/wave.svg);
+    background-image: url(../../assets/images/wave.svg);
     background-size: cover;
     background-position: 0 20%;
     color: var(--clr-pry);
@@ -432,7 +432,7 @@ input:active {
 /* get in touch banner */
 .cta_banner {
     background-color: var(--clr-accent-light);
-    background-image: url(/assets/images/wave.svg);
+    background-image: url(../../assets/images/wave.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -452,7 +452,7 @@ input:active {
 
 /* footer  */
 footer {
-    background-image: url(/assets/images/wave.svg);
+    background-image: url(../../assets/images/wave.svg);
     padding: 2rem 0;
     gap: 3rem;
     align-items: center;
