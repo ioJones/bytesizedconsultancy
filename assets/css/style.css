@@ -240,6 +240,7 @@ header {
 .services_cards {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 3px;
+    justify-content: center;
     margin: 3rem 0;
     padding: 2rem;
 }
@@ -436,6 +437,7 @@ input:active {
 }
 .cta_banner .section_title{
     color:var(--clr-pry-light);
+
 }
 
 /* footer  */
@@ -557,3 +559,4 @@ footer .brand h1 {
 .article_text{
     font-size: var(--text-sm);
 }
+
