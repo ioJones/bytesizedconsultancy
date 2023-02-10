@@ -58,7 +58,7 @@ body {
     --text-xl: 3rem;
     --text-2xl: 3.75rem;
     /* box-shadows  */
-    --shadow-hover: 0px 14px 19px -6px rgba(0, 0, 0, 0.24)
+    --shadow-hover: 0px 14px 19px -6px rgba(0, 0, 0, 0.24);
 }
 
 /* typography */
@@ -89,13 +89,13 @@ li {
     font-size: var(--text-lg);
     text-align: center;
     color: var(--clr-accent-light);
-    z-index: 20 ;
+    /* z-index: 20 ; */
 }
 
 .section_text {
     font-size: var(--text-sm);
     text-align: center;
-    z-index:20;
+    /* z-index:20; */
 
 }
 
@@ -159,7 +159,7 @@ header {
 
 .header {
     justify-content: space-between;
-    z-index: 10;
+    /* z-index: 10; */
 }
 
 /* brand logo and text  */
@@ -230,17 +230,6 @@ header {
     justify-content: center;
     align-items: center;
     /* color: var(--clr-pry-light) */
-}
-
-/* hero bg overlay  */
-.bg_overlay {
-    position: absolute;
-    background: var(--clr-gradient);
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100%;
-    z-index: 0;
 }
 
 /* who are we section  */
@@ -371,7 +360,6 @@ input:active {
 #message {
     height: 12rem;
     margin-bottom: 1.5rem;
-    ;
 }
 
 /* buttons */
@@ -385,8 +373,8 @@ input:active {
     border-radius: 5px;
     padding: 0.7rem 1.2rem;
     border: 1px solid var(--clr-accent-light);
-    background-color: var(--clr-accent-light);
-    color: var(--clr-pry-light);
+    /* background-color: var(--clr-accent-light); */
+    color: var(--clr-accent-light);
 }
 
 .btn_pry:hover {
@@ -429,12 +417,14 @@ input:active {
     border: 1px solid var(--clr-pry-light);
     color: var(--clr-pry-light);
     margin-top: 3rem;
-    z-index: 20;
+    /* z-index: 20; */
 }
 
 .cta:hover {
     border: none;
     scale: 103%;
+    border: 2px solid var(rgba(156, 219, 255, 0.7));
+
 }
 
 /* get in touch banner */
@@ -509,7 +499,7 @@ footer .brand h1 {
 }
 
 /* media queries */
-@media (max-width:720px) {
+@media (max-width:855px) {
     .nav_items {
         display: flex;
         width: 100vw;
@@ -525,7 +515,7 @@ footer .brand h1 {
         left: 50%;
         transform: translateX(-50%);
         background-color: var(--clr-pry-light);
-        z-index: -2;
+        z-index:30;
     }
 
 
@@ -541,8 +531,8 @@ footer .brand h1 {
     }
 
     /* toggle mobile menu  */
-    #toggle:checked~.nav_items {
-        opacity: 100;
+    #toggle:checked ~ .nav_items {
+        opacity:1;
         height: 100vh;
 
     }
@@ -572,12 +562,12 @@ footer .brand h1 {
 }
 
 .services_articles{
-    grid-template-columns:300px 1fr;
     gap: 2rem;
 }
 
 .services_article_block{
     gap:2rem;
+    margin-top: 2rem;
 }
 
 .article_image {
