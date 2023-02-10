@@ -303,11 +303,12 @@ header {
 .case_card:hover card
 
 /* contact section  */
-.form {
+.form_block {
     grid-template-columns: repeat(2, 1fr);
     border-radius: 10px;
     overflow: hidden;
     margin-top: 4rem;
+    outline:1px solid red;
 }
 
 .side_form {
@@ -554,17 +555,19 @@ footer .brand h1 {
     .about_services {
         grid-template-columns:1fr;
     }
+    .services_page_articles {
+        grid-template-columns: 1fr !important;
+        gap: 2rem;
+    }
+    
 
 }
 
 /* ====== ABOUT PAGE ====== */
 
 /* services  */
-.about_services {
+.services_page_articles {
     grid-template-columns: 300px 1fr;
-}
-
-.services_articles{
     gap: 2rem;
 }
 
@@ -578,6 +581,9 @@ footer .brand h1 {
     height: 100%;
     object-fit: cover;
 }
+hr{
+    border:1px solid var(--clr-accent-light);
+}
 
 /* ====== PROJECTS PAGE  ======*/
 .sub_title {
@@ -586,9 +592,4 @@ footer .brand h1 {
 
 .article_text {
     font-size: var(--text-sm);
-}
-
-iframe{
-    width:100%;
-    height:420px;
 }
