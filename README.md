@@ -5,7 +5,13 @@ The Bytesized website provides businesses with a comprehensive platform for thei
 
 Here are some of the key components of the Bytesized website:
 
-Homepage:
+
+
+
+![Responsice Mockup](/assets/readme_images/mockup.png)
+
+## Features 
+### Homepage:
 
 Clean and intuitive navigation
 Cards showcasing company services and their benefits
@@ -14,21 +20,107 @@ Contact form for visitors to request information or consultation
 Footer with navigation links to about us, services, case studies, and contact pages.
 About us page:
 
-Detailed information about Bytesized's history, mission, and values
-Insight into the company's expertise and experience
-Overview of the values that drive their commitment to exceptional service
-Services page:
+- Detailed information about Bytesized's services
+- Insight into the company's expertise and experience
 
-In-depth look at the range of services and solutions provided by Bytesized
-Overview of the benefits of each service, including cloud computing, data analytics, and cyber security
-Information on how each service can improve technology infrastructure and drive business success
-Case studies page:
+### Services page:
 
-Real-world examples of how Bytesized has helped businesses overcome technology challenges
-Insights into the positive impact Bytesized has had on various companies' technology infrastructure
-Inspiration for visitors' own technology journeys
-Contact form:
+- - In-depth look at the range of services and solutions provided by Bytesized
+- Overview of the benefits of each service, including cloud computing, data analytics, and cyber security
+- Information on how each service can improve technology infrastructure and drive business success
 
-Available throughout the website
-Convenient way for visitors to get in touch with Bytesized
-Allows visitors to ask questions, request consultations, or provide feedback
+### Projects page:
+
+- Real-world examples of how Bytesized has helped businesses overcome technology challenges
+- Insights into the positive impact Bytesized has had on various companies' technology infrastructure
+- Inspiration for visitors' own technology journeys
+
+### Contact form:
+
+- Available throughout the website
+- Convenient way for visitors to get in touch with Bytesized
+- Allows visitors to ask questions, request consultations, or provide feedback
+
+
+
+
+### Existing Features
+
+- __Navigation Bar__
+
+  - Featured on all pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+
+- __Footer__
+
+  - Featured on all pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
+  - This section contains links that allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+
+- __Embeded Youtube Videos__
+    - To emphasize the need for businesses to implement technology into their operations.
+    - Te also explain the specific details of the kinds of services ByteSized Solutions offers.
+### Features Left to Implement
+
+- Signup for newsletter
+- -A simple blog for news
+- Sticky Live chat
+- User Prefers Dark/Light mode for easy switching between themes.
+
+## Testing 
+The site was tested on the following browsers:
+- Opera
+- Firefox
+- Microsoft Edge
+- Chrome and na few layout bugs were spotted.
+
+During testing, layout errors were spotted and were fixed with the help of W3 checker and Chrome dev tools for debugging.
+
+
+### Validator Testing 
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+
+### Unfixed Bugs
+- General Layout Inconsistencies
+
+## Deployment
+
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - [ByteSized Solutions Website](https://code-institute-org.github.io/love-running-2.0/index.html)
+
+
+## Credits 
+
+
+### Content 
+
+- The text/ website copy was generated using Chat GPT. [Chat GPT](https://chatgptonline.net)
+- Videos in the homepage and services pages were gotten from youtube for demonstration purposes only. Respective owners of the video retains their respective rights.
+    - [kaspersky](https://www.youtube.com/embed/hB1NVzqn7PU)
+    - [Bython Media](https://www.youtube.com/embed/1vV0t2XbtuU)
+    - [CoryAndSteve](https://www.youtube.com/embed/iyLWgpghjHY)
+    - [FingEnt]https://www.youtube.com/embed/4vkIaBUsNvI
+    - [Indeema Software Inc](https://www.youtube.com/embed/fGdqnWWAXE0)
+    - [Tutor2u](https://www.youtube.com/embed/0hzqHwu1i_I)
+- The mobile nav icon was taken from [Font Awesome](https://fontawesome.com/)
+- The icons in the header and body were gotten from [SVG Repo](https://www.svgrepo.com)
+
+
+### Media
+
+- The photos used on the home page, projects page, and case study page are from [Pexels](https://www.pexels.com).
+- The wave background in the hero, CTA banner and footer was generated using [SVGWave](https://svgwave.in).
+
+
+
+
+
