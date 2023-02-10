@@ -83,8 +83,6 @@ During testing, layout errors were spotted and were fixed with the help of W3 ch
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
-### Unfixed Bugs
-- General Layout Inconsistencies
 
 ## Deployment
 
@@ -113,6 +111,20 @@ The live link can be found here - [ByteSized Solutions Website](https:bytesized-
 
 - The photos used on the home page, projects page, and case study page are from [Pexels](https://www.pexels.com).
 - The wave background in the hero, CTA banner and footer was generated using [SVGWave](https://svgwave.in).
+
+
+##  Tech Stack
+-   This website was written in HTML5 and CSS3.
+-   I also wrote a script to automate my git commit and push actions to save valuable time. See below:
+
+<pre><code>#! /bin/bash
+echo "enter commit message: "
+read commitMessage
+git add *
+git commit -m "$commitMessage"
+git push
+</code></pre>
+
 
 
 
