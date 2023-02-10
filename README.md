@@ -58,15 +58,13 @@ About us page:
   - Featured on all pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
   - This section contains links that allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-- __Embeded Youtube Videos__
-    - To emphasize the need for businesses to implement technology into their operations.
-    - Te also explain the specific details of the kinds of services ByteSized Solutions offers.
 ### Features Left to Implement
 
 - Signup for newsletter
 - -A simple blog for news
 - Sticky Live chat
 - User Prefers Dark/Light mode for easy switching between themes.
+Embed videos to different pages instead of images for better conversion of visitors.
 
 ## Testing 
 The site was tested on the following browsers:
