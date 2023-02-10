@@ -3,6 +3,8 @@ Bytesized is a technology company that offers innovative solutions for businesse
 
 The Bytesized website provides businesses with a comprehensive platform for their technology needs. It offers a range of IT services and solutions to help businesses improve their technology infrastructure and drive business success. The website is designed with a clean and intuitive interface, making it easy for visitors to find the information they need.
 
+Live link: [ByteSized Solutions Website](https:bytesized-solutions.netlify.app)
+
 Here are some of the key components of the Bytesized website:
 
 
@@ -95,7 +97,7 @@ This section should describe the process you went through to deploy the project 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - [ByteSized Solutions Website](https://code-institute-org.github.io/love-running-2.0/index.html)
+The live link can be found here - [ByteSized Solutions Website](https:bytesized-solutions.netlify.app)
 
 
 ## Credits 
