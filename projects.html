@@ -12,6 +12,29 @@
 </head>
 
 <body>
+    <header>
+        <!-- navbar -->
+        <nav class="header flex container relative">
+            <!-- main brand logo -->
+            <section class="brand flex">
+                <img src="/assets/images/logo.svg" alt="" class="brand_icon">
+                <a class="brand" href="index.html">
+                    <h1><span>ByteSized</span><br> Solutions</h1>
+                </a>
+            </section>
+            <!--mobile nav toggle-->
+            <label class="hamburger_icon" for="toggle"><i class="fa fa-bars"></i></label>
+            <input type="checkbox" name="" id="toggle" hidden>
+
+            <ul class=" nav_items flex">
+                <li><a aria-current="page" class="nav_item" href="index.html">Home</a></li>
+                <li><a class="nav_item" href="about.html">About</a></li>
+                <li><a class="nav_item" href="about.html#services">Services</a></li>
+                <li><a class="nav_item" href="projects.html">Projects</a></li>
+                <li><a class="nav_item btn btn_pry cta" href="#contact">Get In Touch</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <!-- hero section -->
         <section id="hero" class="hero flex row">
