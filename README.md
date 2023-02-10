@@ -95,7 +95,9 @@ This section should describe the process you went through to deploy the project 
 
 The live link can be found here - [ByteSized Solutions Website](https://iojones.github.io/bytesizedconsultancy/index.html)
 
-After deployment, I encountered issues with images missing. Upon troubleshooting, I found that all links in the code must be typed with relative links i.e "./" for root folder and "../" to trasverse out of a folder relaive to the current folder.
+After deployment, I encountered issues with images missing. Upon troubleshooting, I found that all links in the code must be typed with relative links i.e <pre><code> "./" or "../"
+
+</code></pre> for root folder and to trasverse out of a folder relaive to the current folder respectively.
 
 
 ## Credits 
