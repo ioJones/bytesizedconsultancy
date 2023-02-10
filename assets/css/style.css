@@ -430,7 +430,7 @@ input:active {
 /* get in touch banner */
 .cta_banner {
     background-color: var(--clr-accent-light);
-    background-image: url(/assets/images/typing.jpg);
+    background-image: url(/assets/images/wave.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -551,6 +551,9 @@ footer .brand h1 {
         grid-template-columns: 1fr;
 
     }
+    .about_services {
+        grid-template-columns:1fr;
+    }
 
 }
 
@@ -558,7 +561,7 @@ footer .brand h1 {
 
 /* services  */
 .about_services {
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: 300px 1fr;
 }
 
 .services_articles{
