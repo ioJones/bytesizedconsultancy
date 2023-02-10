@@ -88,13 +88,9 @@ During testing, layout errors were spotted and were fixed with the help of W3 ch
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
-- The site was deployed to Netlify. The steps to deploy are as follows: 
-  - Open a [Netlify.com account](https://netlify.com)
-  - After creating an account, click on 'Add New Site' in your dashboard
-  - Select 'Import an existing project' from the drop down menu
-  - Connect to Git provider by loging in with your Github
-  - Select the Repo from the list shown
-  - From the 'branch to deploy' section drop-down menu, select the Master Branch
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 The live link can be found here - [ByteSized Solutions Website](https:bytesized-solutions.netlify.app)
