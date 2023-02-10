@@ -89,11 +89,13 @@ li {
     font-size: var(--text-lg);
     text-align: center;
     color: var(--clr-accent-light);
+    z-index: 20 ;
 }
 
 .section_text {
     font-size: var(--text-sm);
     text-align: center;
+    z-index:20;
 
 }
 
@@ -206,11 +208,11 @@ header {
 
 /* hero section  */
 .hero {
-    /* background-color: var(--clr-accent-light); */
+    background-color: var(--clr-accent-light);
     background-image: url(/assets/images/wave.svg);
     background-size: cover;
     background-position: 0 20%;
-    color: var(--clr-accent-dark);
+    color: var(--clr-pry);
     width: 100vw;
     height: 70vh;
     align-items: center;
@@ -227,7 +229,7 @@ header {
     position: absolute;
     justify-content: center;
     align-items: center;
-    color: var(--clr-pry-light)
+    /* color: var(--clr-pry-light) */
 }
 
 /* hero bg overlay  */
@@ -383,7 +385,8 @@ input:active {
     border-radius: 5px;
     padding: 0.7rem 1.2rem;
     border: 1px solid var(--clr-accent-light);
-    color: var(--clr-accent-light);
+    background-color: var(--clr-accent-light);
+    color: var(--clr-pry-light);
 }
 
 .btn_pry:hover {
@@ -426,6 +429,7 @@ input:active {
     border: 1px solid var(--clr-pry-light);
     color: var(--clr-pry-light);
     margin-top: 3rem;
+    z-index: 20;
 }
 
 .cta:hover {
@@ -555,6 +559,7 @@ footer .brand h1 {
 
     .form {
         grid-template-columns: 1fr;
+
     }
 
 }
