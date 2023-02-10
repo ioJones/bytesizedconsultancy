@@ -105,6 +105,7 @@ The live link can be found here - [ByteSized Solutions Website](https://code-ins
 
 - The text/ website copy was generated using Chat GPT. [Chat GPT](https://chatgptonline.net)
 - Videos in the homepage and services pages were gotten from youtube for demonstration purposes only. Respective owners of the video retains their respective rights.
+    - [Business Support](https://www.youtube.com/embed/yBUMLYw17t4)
     - [kaspersky](https://www.youtube.com/embed/hB1NVzqn7PU)
     - [Bython Media](https://www.youtube.com/embed/1vV0t2XbtuU)
     - [CoryAndSteve](https://www.youtube.com/embed/iyLWgpghjHY)
