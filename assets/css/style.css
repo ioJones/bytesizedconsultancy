@@ -537,6 +537,14 @@ footer .brand h1 {
     .form {
         grid-template-columns: 1fr;
     }
+
+    /* footer get in touch button  */
+    .footer_nav_items .btn{
+        display: grid;
+        gap: 1rem;
+        align-items: center;
+    }
+
 }
 
 /* ====== ABOUT PAGE ====== */
@@ -549,10 +557,6 @@ footer .brand h1 {
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
-
-.about_services{
-    /* gap: 2rem; */
 }
 
 /* ====== PROJECTS PAGE  ======*/
